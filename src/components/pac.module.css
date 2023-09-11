@@ -1,0 +1,25 @@
+.L{
+    rotate: -45deg;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.R{
+    rotate: 130deg;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.U{
+    rotate:45deg;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.D{
+    rotate: -135deg;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
