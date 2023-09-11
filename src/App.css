@@ -1,0 +1,115 @@
+
+
+.row{
+    display: flex;
+}
+
+.cell{
+    background-color: rgb(44, 44, 44);
+
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: smaller;
+}
+
+.border{
+    background-color: rgb(0, 0, 0);
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: smaller;
+}
+
+
+.U{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-left:2px solid aqua ;
+    border-top:2px solid aqua ;
+    border-right:2px solid aqua ;
+    box-sizing: border-box;
+}
+
+.D{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom:2px solid aqua ;
+    border-right:2px solid aqua ;
+    border-left:2px solid aqua ;
+    box-sizing: border-box;
+
+}
+.R{
+    border-top-right-radius:10px ;
+    border-bottom-right-radius: 10px;
+    border-bottom: 2px solid aqua;
+    border-right: 2px solid aqua;
+    border-top: 2px solid aqua;
+    box-sizing: border-box;
+}
+
+.L{
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+    border-left:2px  solid aqua;
+    border-top: 2px solid aqua;
+    border-bottom: 2px solid aqua;
+    box-sizing: border-box;
+}
+
+.HR{
+    border-top: 2px solid aqua;
+    border-bottom: 2px solid aqua;
+    box-sizing: border-box;
+}
+.VR{
+    border-left: 2px solid aqua;
+    border-right: 2px solid aqua ;
+    box-sizing: border-box;   
+}
+
+.TR{
+    border-top: 2px solid aqua;
+    border-right: 2px solid aqua;
+    box-sizing: border-box;
+}
+.TL{
+     border-top: 2px solid aqua;
+    border-left: 2px solid aqua;
+    box-sizing: border-box;
+}
+
+.DR{
+    border-bottom: 2px solid aqua;
+    border-right: 2px solid aqua;
+    box-sizing: border-box;
+}
+
+.DL{
+    border-bottom: 2px solid aqua;
+    border-left: 2px solid aqua;
+    box-sizing: border-box;
+}
+
+.UT{
+    border-top: 2px solid aqua ;
+    box-sizing: border-box;
+}
+
+.DB{
+    border-bottom: 2px solid aqua ;
+    box-sizing: border-box;
+}
+.LL{
+    border-left: 2px solid aqua ;
+    box-sizing: border-box;
+}
+.RR{
+    border-right: 2px solid aqua;
+    box-sizing: border-box;
+}

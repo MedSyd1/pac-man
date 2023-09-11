@@ -1,6 +1,5 @@
 
 import {BiSolidCircleThreeQuarter} from 'react-icons/bi'
-import {TbCircleDotFilled} from 'react-icons/tb'
 import {BsFillCircleFill} from 'react-icons/bs'
 
 import Styles from './pac.module.css'
@@ -22,8 +21,8 @@ const Pac = ({direction}:Props) => {
   return (
     <div className={Styles[direction]}>
     {
-      change ?   <BiSolidCircleThreeQuarter size={32}></BiSolidCircleThreeQuarter> : 
-      <BsFillCircleFill size={26}></BsFillCircleFill>
+      change ?   <BiSolidCircleThreeQuarter size={32} color='orange'></BiSolidCircleThreeQuarter> : 
+      <BsFillCircleFill size={26} color='orange'></BsFillCircleFill>
     }
     </div>
   )
