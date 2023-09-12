@@ -379,26 +379,23 @@ const App = () => {
           {row.map((cell) => (
             <div
               key={cell}
-              className={
-                // Styles[`${BORDERS.includes(cell) ? (`border`) : "cell"}`]
-                [
-                  `${BORDERS.includes(cell) ? "border " : "cell "}`,
-                  `${UPCELLS.includes(cell) ? " U" : ""}`,
-                  `${DOWNCELLS.includes(cell) && " D"}`,
-                  `${RIGTHCELLS.includes(cell) && " R"}`,
-                  `${LEFTCELLS.includes(cell) && " L"}`,
-                  `${HR.includes(cell) && " HR"}`,
-                  `${VR.includes(cell) && " VR"}`,
-                  `${TR.includes(cell) && " TR"}`,
-                  `${TL.includes(cell) && " TL"}`,
-                  `${DR.includes(cell) && " DR"}`,
-                  `${DL.includes(cell) && " DL"}`,
-                  `${UT.includes(cell) && " UT"}`,
-                  `${DB.includes(cell) && " DB"}`,
-                  `${LL.includes(cell) && " LL"}`,
-                  `${RR.includes(cell) && " RR"}`,
-                ].join(" ")
-              }
+              className={[
+                `${BORDERS.includes(cell) ? "border " : "cell "}`,
+                `${UPCELLS.includes(cell) ? " U" : ""}`,
+                `${DOWNCELLS.includes(cell) && " D"}`,
+                `${RIGTHCELLS.includes(cell) && " R"}`,
+                `${LEFTCELLS.includes(cell) && " L"}`,
+                `${HR.includes(cell) && " HR"}`,
+                `${VR.includes(cell) && " VR"}`,
+                `${TR.includes(cell) && " TR"}`,
+                `${TL.includes(cell) && " TL"}`,
+                `${DR.includes(cell) && " DR"}`,
+                `${DL.includes(cell) && " DL"}`,
+                `${UT.includes(cell) && " UT"}`,
+                `${DB.includes(cell) && " DB"}`,
+                `${LL.includes(cell) && " LL"}`,
+                `${RR.includes(cell) && " RR"}`,
+              ].join(" ")}
             >
               {cell === g1.position ||
               cell === g2.position ||
